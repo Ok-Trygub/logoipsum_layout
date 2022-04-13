@@ -1,0 +1,293 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+body {
+	font-family: "Mulish", sans-serif;
+	margin: 0;
+}
+
+.container {
+	width: 1071px;
+	margin: 0 auto;
+}
+
+.header {
+	height: 100%;
+	padding-top: 30px;
+}
+
+.header::after {
+	display: block;
+	content: "";
+	clear: both;
+}
+
+.hidden {
+	display: none;
+}
+
+.logo {
+	float: left;
+	width: 20%;
+}
+
+.logo-image {
+	text-align: center;
+	margin-top: 10.98px;
+}
+
+.nav {
+	float: left;
+	width: 60%;
+}
+
+.links-wrapper {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+.link {
+	display: inline-block;
+	list-style: none;
+	font-family: DM Sans;
+	font-size: 15px;
+	line-height: 400%;
+	letter-spacing: -0.468947px;
+	margin-right: 49px;
+}
+
+.link:last-child {
+	margin-right: 0;
+}
+
+.link a {
+	color: #696871;
+	text-decoration: none;
+}
+
+.link.active a {
+	color: #19191b;
+}
+
+.button-header {
+	float: right;
+	width: 20%;
+}
+
+.get-started-button {
+	font-family: DM Sans;
+	font-size: 17px;
+	letter-spacing: -0.531474px;
+	line-height: 22px;
+	display: inline-block;
+	width: 211px;
+	height: 60px;
+	padding-top: 19px;
+	text-align: center;
+	color: #ffffff;
+	text-decoration: none;
+	border-radius: 10px;
+	background: #ff7143;
+}
+
+.subscription-business {
+	float: left;
+	width: 43%;
+	padding-top: 192px;
+}
+
+.subscription-title {
+	font-family: DM Sans;
+	font-size: 80px;
+	letter-spacing: -2.50105px;
+	color: #19191b;
+	line-height: 96%;
+	margin: 0 0 30px 0;
+}
+
+.section-text {
+	font-size: 20px;
+	line-height: 150%;
+	letter-spacing: -0.625263px;
+	margin: 0 0 50px 0;
+	color: #696871;
+}
+
+.section-text::after {
+	display: block;
+	content: "";
+	clear: left;
+}
+
+.get-started-button-wrapper {
+	float: left;
+	width: 55%;
+}
+
+.section {
+	background: #5454d4;
+	margin-right: 40px;
+}
+
+.arrow-down-wrapper {
+	float: left;
+	width: 45%;
+}
+
+.arrow-down-button {
+	border: 1px solid #e7e7e7;
+	background: #ffffff;
+	border-radius: 50%;
+	width: 60px;
+	height: 60px;
+	padding: 0;
+}
+
+.subscription-business-image {
+	float: right;
+	width: 57%;
+	padding-top: 100px;
+	margin-bottom: 100px;
+}
+
+section::after {
+	display: block;
+	content: "";
+	clear: both;
+}
+
+.partners {
+	float: left;
+	width: 100%;
+}
+
+.logoipsum-wrapper {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 47.65px;
+}
+
+.logoipsum {
+	display: inline-block;
+	margin-right: 114px;
+	vertical-align: middle;
+}
+
+.logoipsum:last-child {
+	margin-right: 0;
+}
+
+.subscription-index-image {
+	float: left;
+	width: 33%;
+	padding-top: 150px;
+	margin-right: 15%;
+}
+
+.subscription-index {
+	float: right;
+	width: 52%;
+	padding-top: 272px;
+}
+
+.minor-title {
+	font-family: DM Sans;
+	font-size: 50px;
+	line-height: 114%;
+	letter-spacing: -1.56316px;
+	color: #19191b;
+	margin: 0 0 30px 0;
+}
+
+.minor {
+	margin-bottom: 30px;
+}
+
+.learn-more {
+	font-family: DM Sans;
+	letter-spacing: -0.531474px;
+	color: #5454d4;
+	text-decoration: none;
+}
+
+.in-depth-metrics {
+	float: left;
+	width: 52%;
+	padding-top: 261px;
+	margin-right: 15%;
+}
+
+.in-depth-metrics-image {
+	float: right;
+	width: 33%;
+	text-align: right;
+	padding-top: 49px;
+	margin-bottom: 158px;
+}
+
+.benchmarks {
+	float: left;
+	width: 30%;
+	text-align: center;
+	margin-right: 5%;
+}
+
+.feature-wrapper {
+	display: inline-block;
+	width: 307px;
+	height: 207px;
+}
+
+.card {
+	width: 114px;
+	height: 63.98px;
+	margin-top: 19px;
+}
+
+.pricing-audit {
+	float: left;
+	width: 30%;
+	text-align: center;
+	margin-right: 5%;
+}
+
+.calculator {
+	width: 91px;
+	height: 71.98px;
+	margin-top: 11px;
+}
+
+.retention-audit {
+	float: left;
+	width: 30%;
+	text-align: center;
+}
+
+.camera {
+	width: 118px;
+	height: 62.98px;
+	margin-top: 20px;
+}
+
+.feature-title {
+	font-family: DM Sans;
+	font-size: 24px;
+	line-height: 150%;
+	text-align: center;
+	letter-spacing: -0.750316px;
+	color: #19191b;
+	margin: 20px 0;
+}
+
+.feature-text {
+	font-size: 16px;
+	line-height: 150%;
+	text-align: center;
+	letter-spacing: -0.500211px;
+	color: #696871;
+	margin: 0;
+}
